@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubanj</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="klavijatura.html"><button class="prelaz">Klavijatura</button></a>
+            </div>
+        </div>
+        <div class="row"><hr/></div>
+        <div class="row">
+            <div class="col-md-6 text-center align-self-center offset-3" id="naslov">
+                Sviraj Bubanj
+            </div>
+        </div>
+        <div data-key="69" class="crash dugme"><kbd class="key">E</kbd></div>
+        <div data-key="82" class="ride dugme"><kbd class="key">R</kbd></div>
+        <div data-key="73" class="hi-hat-open dugme"><kbd class="key">I</kbd></div>
+        <div data-key="75" class="hi-hat-closed dugme"><kbd class="key">O</kbd></div>
+        <div data-key="70" class="low-tom dugme"><kbd class="key">F</kbd></div>
+        <div data-key="71" class="mid-tom dugme"><kbd class="key">G</kbd></div>
+        <div data-key="72" class="high-tom dugme"><kbd class="key">H</kbd></div>
+        <div data-key="74" class="snare dugme"><kbd class="key">J</kbd></div>
+        <div data-key="86" class="kick1 dugme"><kbd class="key">V</kbd></div>
+        <div data-key="66" class="kick2 dugme"><kbd class="key">B</kbd></div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-center align-self-center">
+                <img src="slike/bubnjevi.png" alt="" style="width: 681.81818px; height: 502.72727px">
+            </div>
+            <div class="col-md-2 mapa">
+                <header style="color: white; font-family: cursive; font-size: 20px; align-self: center; text-align: center;">Mapa Dugmadi</header>
+                <hr />
+                <div class="divMapa"><kbd class="key">E</kbd>  Crash</div>
+                <div class="divMapa"><kbd class="key">R</kbd>  Ride</div>
+                <div class="divMapa"><kbd class="key">I</kbd>  Hi-hat open</div>
+                <div class="divMapa"><kbd class="key">O</kbd>  Hi-hat closed</div>
+                <div class="divMapa"><kbd class="key">F</kbd>  Low tom</div>
+                <div class="divMapa"><kbd class="key">G</kbd>  Mid tom</div>
+                <div class="divMapa"><kbd class="key">H</kbd>  High tom</div>
+                <div class="divMapa"><kbd class="key">J</kbd>  Snare</div>
+                <div class="divMapa"><kbd class="key">V</kbd><kbd class="key" style="margin-left: 4px;">B</kbd>    Kick</div>
+            </div>
+        </div>
+    </div>
+
+
+<audio data-key="69" src="zvuci/sounds_crash.wav"></audio>
+<audio data-key="82" src="zvuci/sounds_ride.wav"></audio>
+<audio data-key="73" src="zvuci/sounds_hihat-open.wav"></audio>
+<audio data-key="75" src="zvuci/sounds_hihat-close.wav"></audio>
+<audio data-key="70" src="zvuci/sounds_tom-low.wav"></audio>
+<audio data-key="71" src="zvuci/sounds_tom-mid.wav"></audio>
+<audio data-key="72" src="zvuci/sounds_tom-high.wav"></audio>
+<audio data-key="74" src="zvuci/sounds_snare.wav"></audio>
+<audio data-key="86" src="zvuci/sounds_kick.wav"></audio>
+<audio data-key="66" src="zvuci/sounds_kick.wav"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>

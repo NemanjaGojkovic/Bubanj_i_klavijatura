@@ -1,0 +1,210 @@
+@font-face {
+    font-family: oleo-font;
+    src: url(font/OleoScriptSwashCaps-Regular.ttf);
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.container{
+    margin-top: 15px;
+}
+
+.row{
+    padding: 6px;
+}
+
+.divMapa{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+
+.prelaz{
+    border-radius: 5px;
+    background-color: aquamarine;
+    border-color: rgb(22, 143, 143);
+    color: rgb(22, 143, 143);
+    width: 140px;
+    height: 40px;
+}
+
+.prelaz:hover{
+    background-color: rgb(81, 173, 141);
+    border-color: rgb(12, 82, 82);
+    color: rgb(12, 82, 82);
+}
+
+hr{
+    border: none;
+    border-top: 2px solid rgb(22, 70, 70);
+}
+
+#naslov{
+    font-size: 50px;
+    color: rgb(36, 141, 141);
+    font-family: oleo-font;
+}
+
+#redSlika{
+    margin-top: 100px;
+}
+
+.dugme{
+    position: absolute;
+}
+
+.mapa{
+    background-color: rgb(28, 99, 140);
+    opacity: 90%;
+}
+
+kbd{
+    background-color: rgb(227, 227, 215);
+    color: rgb(96, 89, 89);
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: 1.8px solid rgb(96, 89, 89);
+    
+}
+
+.crash{
+    top: 207px;
+    right: 910px;
+}
+
+.ride{
+    left: 848px;
+    top: 215px;
+}
+
+.hi-hat-open{
+    top: 307px;
+    left: 930px;
+}
+
+.hi-hat-closed{
+    top: 307px;
+    left: 1020px;
+}
+
+.low-tom{
+    top: 440px;
+    right: 940px;
+}
+
+.mid-tom{
+    top: 331px;
+    right: 848px;
+}
+
+.high-tom{
+    left: 802px;
+    top: 333px;
+}
+
+.snare{
+    left: 877px;
+    top: 430px;
+}
+
+.kick1{
+    top: 535px;
+    right: 797px;
+}
+
+.kick2{
+    top: 535px;
+    left: 767px;
+}
+
+
+.dugme1{
+    position: absolute;
+    top: 520px;
+}
+
+.f3{
+    left: 341px;
+}
+
+.g3{
+    left: 397px;
+}
+
+.a3{
+    left: 453px;
+}
+
+.b3{
+    left: 507px;
+}
+
+.c4{
+    left: 559px;
+}
+
+.d4{
+    left: 612px;
+}
+
+.e4{
+    left: 667px;
+}
+
+.f4{
+    left: 722px;
+}
+
+.g4{
+    left: 777px; 
+}
+
+.a4{
+    left: 832px;
+}
+
+.b4{
+    left: 885px;
+}
+
+.c5{
+    left: 936px;
+}
+
+.d5{
+    left: 990px;
+}
+
+.e5{
+    left: 1044px;
+}
+
+.f5{
+    left: 1098px;
+}
+
+.g5{
+    left: 1152px;
+}
+
+.a5{
+    left: 1207px;
+}
+
+.b5{
+    left: 1263px;
+}
+
+.c6{
+    left: 1317px;
+}
+
+
+
+
+
+
